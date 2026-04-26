@@ -1,20 +1,24 @@
 
-import Button from './components/button.js'
-import Input from './components/input.js';
-function App(){
+export function NewFunction(){
   return (
-
-<div>
-
-<h1> hello altaf</h1>
-<p>this is a para </p>
-
-<Button/>
-<Input/>
-</div>
-
+    <>
+    <h1>new fuction</h1>
+    </>
   )
 }
-export default App;
 
+// export default  NewFunction;
 
+function App() {
+  return (
+    <div>
+
+    my app
+
+    </div>
+  )
+}
+
+export default App
+
+// video 17..
