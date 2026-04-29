@@ -18,16 +18,20 @@
 
 import Footer from "./components/Footer"
 import Navber from "./components/Navber"
+import User from "./utils/User"
 
 function App() {
   return (
     <div>
 
-<Navber/>
-
-    <h1>my app</h1>
+{/* <Navber/> */}
+    my app
 {/* <NewFunction/> */}
-    <Footer/>
+    {/* <Footer/> */}
+
+
+
+<User name="ali" age="30" id="100"/>
 
     </div>
   )
@@ -37,5 +41,5 @@ export default App
 
 
 
-// video 40..
+// video 59..
 
