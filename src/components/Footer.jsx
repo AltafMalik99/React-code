@@ -1,5 +1,5 @@
 
-function Footer() {
+function Footer(props) {
 
     const footersection = {
         border: "2px solid red",
@@ -10,6 +10,7 @@ function Footer() {
   return (
     <div>
         <h1 style={footersection}>Footer</h1>
+        <h2>{Footer.name}</h2>
         </div>
   )
 }
