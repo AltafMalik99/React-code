@@ -32,7 +32,10 @@ function App() {
 
 
 <User name="ali" age="30" id="100"/>
-<Footer name="Footer"/>
+
+
+<Footer name="footer"/>
+
 
     </div>
   )
@@ -42,5 +45,4 @@ export default App
 
 
 
-// video 1:3..
 

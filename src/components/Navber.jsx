@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from './assets/images/react.png'
 
-function  Navber() {
+function  Navber(props) {
   return (
 
 
@@ -23,14 +23,10 @@ function  Navber() {
             <li>Home</li>
             <li>About</li>
             <li>Contect</li>
+            <li>{props.name}</li>
         </ul>
     </div>
   )
 }
 
 export default  Navber
-
-function noor(){
-    var malik = "hello"
-}
-noor()

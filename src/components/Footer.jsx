@@ -10,7 +10,7 @@ function Footer(props) {
   return (
     <div>
         <h1 style={footersection}>Footer</h1>
-        <h2>{Footer.name}</h2>
+        <h2>{props.name}</h2>
         </div>
   )
 }
