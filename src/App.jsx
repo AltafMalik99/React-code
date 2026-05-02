@@ -35,6 +35,8 @@ function App() {
 
 
 <Footer name="footer"/>
+<Footer name11="hello altaf"/>
+
 
 
     </div>
@@ -45,4 +47,17 @@ export default App
 
 
 
+//props
+// props properties React me wo data hota hai 
+// jo parent components se child components ko bheja hai
 
+
+// export function App() {
+//   return <User name="Ali" />;
+// }
+
+// function User(props) {
+//   return <h1>Hello {props.name}</h1>;
+// }
+
+//  export default App

@@ -11,6 +11,8 @@ function Footer(props) {
     <div>
         <h1 style={footersection}>Footer</h1>
         <h2>{props.name}</h2>
+        <h2>{props.name11}</h2>
+
         </div>
   )
 }
