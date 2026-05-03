@@ -32,6 +32,8 @@ function App() {
 
 
 <User name="ali" age="30" id="100"/>
+{/* <User name="noor" age="20" id="123"/> */}
+
 
 
 <Footer name="footer"/>
@@ -44,6 +46,8 @@ function App() {
 }
 
 export default App
+
+// video 1:24
 
 
 

@@ -8,7 +8,7 @@ function  Navber(props) {
     <div style={{display:"flex",justifyContent:"space-between"}}>
 
 <div>
-    <img style={{width:"100px"}} src="https://create-react-app.dev/img/logo-og.png" alt="car logo" />
+    <img style={{width:"100px"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw2dAVNmBhqVvNPAs7LJHnumSH3pHdoWP0bg&s" alt="car logo2" />
 </div>
 
 <div>
