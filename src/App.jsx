@@ -1,9 +1,6 @@
 
-
 // export function NewFunction(){
-  
-  
-  
+
 //   return (
 //     <>
 //     <h1 className="heading">new fuction</h1>
@@ -24,32 +21,24 @@ function App() {
   return (
     <div>
 
-{/* <Navber/> */}
-    my app
-{/* <NewFunction/> */}
-    {/* <Footer/> */}
+      {/* <Navber/> */}
+      my app
+      {/* <NewFunction/> */}
+      {/* <Footer/> */}
 
 
+      <User name="ali" age="30" id="100" />
 
-<User name="ali" age="30" id="100"/>
-{/* <User name="noor" age="20" id="123"/> */}
-
-
-
-<Footer name="footer"/>
-<Footer name11="hello altaf"/>
-
-
+      <Footer name="footer" />
+      <Footer name11="hello altaf" />
 
     </div>
   )
 }
 
+// video 2
+
 export default App
-
-// video 1:24
-
-
 
 //props
 // props properties React me wo data hota hai 
