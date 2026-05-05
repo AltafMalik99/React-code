@@ -1,44 +1,149 @@
 
-// export function NewFunction(){
+// class 33 work
 
-//   return (
-//     <>
-//     <h1 className="heading">new fuction</h1>
-//     <button>button in new fuction</button>
-//     <h1></h1>
 
-//     </>
-//   )
-// }
 
-// export default  NewFunction;
-
-import Footer from "./components/Footer"
-import Navber from "./components/Navber"
-import User from "./utils/User"
+import React from 'react'
+import Button from './components/Button'
+import product from './utils/product'
 
 function App() {
   return (
     <div>
+      <Button title="App button" subtitle="app button subtitle"/>
 
-      {/* <Navber/> */}
-      my app
-      {/* <NewFunction/> */}
-      {/* <Footer/> */}
+      <Button title="App button 2"/>
 
 
-      <User name="ali" age="30" id="100" />
+{/* product data */}
 
-      <Footer name="footer" />
-      <Footer name11="hello altaf" />
+{
+  product.map((product)=>{
+  console.log("product",product);
+
+   return (
+    <div key={product.id}>
+      <h1>Name :{product.title}</h1>
+      <h1>Rs :{product.price}</h1>
+      <h1>Description {product.description}</h1>
+
 
     </div>
+   )
+    
+  })
+}
+
+
+
+
+      </div>
   )
 }
 
-// video 2
-
 export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// class 32 work.............................................................................................................................................
+
+// // export function NewFunction(){
+
+// //   return (
+// //     <>
+// //     <h1 className="heading">new fuction</h1>
+// //     <button>button in new fuction</button>
+// //     <h1></h1>
+
+// //     </>
+// //   )
+// // }
+
+// // export default  NewFunction;
+
+// import Button from "./components/Button"
+// import Footer from "./components/Footer"
+// import Navber from "./components/Navber"
+// import User from "./utils/User"
+
+// function App() {
+//   return (
+//     <div>
+
+//       {/* <Navber/> */}
+//       my app
+//       {/* <NewFunction/> */}
+//       {/* <Footer/> */}
+
+
+//       <User name="ali" age="30" id="100" />
+
+//       <Footer name="this is footer" />
+
+
+// {/* <Button/> */}
+
+// <Button title="view my work"/>
+
+
+//     </div>
+//   )
+// }
+
+// // video 2
+
+// export default App
+
+
+
+
+
+
+
+  
 
 //props
 // props properties React me wo data hota hai 
