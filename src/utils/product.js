@@ -12,16 +12,17 @@ const product = [{
      title:"bata",
     price:"1000",
     description:"this is brand bata",
-    image:"https://www.shutterstock.com/image-photo/tan-leather-oxford-brogue-shoes-260nw-2492454723.jpg"
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS2YmEk45TDf1A47Yn3BcsaaeiZRHNmWEc-Q&s"
 
-}
-    ,
-    { 
+},
+
+{ 
     id:3,
     title:"slippers",
     price:"1500",
     description:"this is brand slippers",
-    image:"https://www.shutterstock.com/image-photo/tan-leather-oxford-brogue-shoes-260nw-2492454723.jpg"
-    }
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt0dIKkkJJK_7SQ0c2UKxrlH26SZVOHd2lkQ&s"
+
+    }]
 
     export default product
