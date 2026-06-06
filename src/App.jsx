@@ -101,46 +101,44 @@
 
 
 
-import React from 'react'
-import ProductCard from './components/ProductCard'
-
-function App() {
-  return (
-    <div>
-      App
-<ProductCard/>
-    </div>
-  )
-}
-
-export default App
+// import React from 'react'
+// import ProductCard from './components/ProductCard'
 
 
 
-
-// video 56
-
-
-
+// function App() {
+//   return (
+//     <div>
 
 
 
+// {
+//  products.map((product)=>{
+//   return (
+ 
+// <div>
+// <ProductCard title={product.title}
+// description={product.description}
+// price={product.price}
+// image={product.image}
+// />
+// </div>
+//     )
+//   })
+// }
+
+// <ProductCard title="shoes" description="this is brand" price=":100"/>
+// <ProductCard title="shoes" description="this is brand" price=":100"/>
+
+//     </div>
+//   )
+// }
+
+// export default App
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// video 1:00
 
 
 
@@ -149,26 +147,25 @@ export default App
 
 
 
+// import React from 'react'
+// import Button from './components/Button'
+// import './App.css'
 
 
+// function App() {
+//   return (
+//     <div>    
 
+// <div>app</div>
+// <Button title="login"/>
+// <Button title="service"/>
+// <Button title="contect"/>
 
+//     </div>
+//   )
+// }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// export defa
 
 
 
@@ -226,8 +223,6 @@ export default App
 
 
 
-
-
   
 
 //props
@@ -244,3 +239,54 @@ export default App
 // }
 
 //  export default App
+
+
+
+
+
+
+
+
+
+import React from 'react'
+import Button from './components/Button'
+import products from './utils/product'
+
+
+
+function App() {
+  return (
+    <div>
+  <Button title="this btn" subtitle="thia is second btn"/>
+    <Button title="this btn"/>
+
+
+{
+  products.map((products)=>{
+    return console.log("product",products);
+    
+  })
+}
+
+
+    </div>
+  )
+}
+
+export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

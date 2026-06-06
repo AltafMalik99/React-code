@@ -1,26 +1,26 @@
-import  'tailwindcss'
-import Button from './Button'
+// import  'tailwindcss'
+// import Button from './Button'
 
-function Footer(props) {
+// function Footer(props) {
 
-    const footersection = {
-        border: "2px solid red",
-        backgroundColor : "yellow",
-        fontSize: "30px"
-    }
+//     const footersection = {
+//         border: "2px solid red",
+//         backgroundColor : "yellow",
+//         fontSize: "30px"
+//     }
 
-  return (
-    <div>
-        <h1 style={footersection}>Footer</h1>
-        <h2>{props.name}</h2>
-        <h2>{props.name11}</h2>
-
-
-<Button title="download cv"/>
+//   return (
+//     <div>
+//         <h1 style={footersection}>Footer</h1>
+//         <h2>{props.name}</h2>
+//         <h2>{props.name11}</h2>
 
 
-        </div>
-  )
-}
+// <Button title="download cv"/>
 
-export default Footer
+
+//         </div>
+//   )
+// }
+
+// export default Footer
