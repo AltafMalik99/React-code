@@ -277,15 +277,26 @@ import products from './utils/product'
 function App() {
   return (
     <div>
-      {/* <Button/> */}
       {
-        products.map((products))
+        products.map((products)=>{
+          return (
+             <div>
+              <Productcard 
+              key={products.id}
+              title={products.title}
+              description={products.descritpion}
+              price={products.price}
+              image={products.image}
+              />
+             </div>
+          ) 
+        })
       }
-     <Productcard title="shoes" description="description isisis" price=" :300" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRIcyk9ST-uP3pxPNx_K6rAfckiclJrJleNg&s" />
+   
     </div>
   )
 }
 
 export default App
 
-// video  47
+// video 108

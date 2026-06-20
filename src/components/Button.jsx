@@ -39,7 +39,7 @@
 //     <div>
 //       <button className='noor'>{props.title}</button>
 
-//     </div>
+//     </div>rs
 //   )
 // }
 
