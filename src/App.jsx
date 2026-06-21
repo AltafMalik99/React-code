@@ -269,34 +269,45 @@
 
 // -- product card with UI components
 
-import React from 'react'
-import Productcard from './components/ProductCard'
-import Button from './components/Button'
-import products from './utils/product'
 
-function App() {
-  return (
-    <div>
-      {
-        products.map((products)=>{
-          return (
-             <div>
-              <Productcard 
-              key={products.id}
-              title={products.title}
-              description={products.descritpion}
-              price={products.price}
-              image={products.image}
-              />
-             </div>
-          ) 
-        })
-      }
+
+
+
+
+// ................................. class 33 ...........
+
+
+// import React from 'react'
+// import Productcard from './components/ProductCard'
+// import Button from './components/Button'
+// import products from './utils/product'
+
+// function App() {
+//   return (
+//     <div>
+//       {
+//         products.map((products)=>{
+//           return (
+//              <div style={{display:"flex",justifyContent:'space-evenly'}}>
+//               <div style={{backgroundColor:"blue"}}>
+
+//               <Productcard 
+//               key={products.id}
+//               title={products.title}
+//               description={products.descritpion}
+//               price={products.price}
+//               image={products.image}
+//               />
+//               </div>
+//              </div>
+//           ) 
+//         })
+//       }
    
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
 
-export default App
+// export default App
 
 // video 108
