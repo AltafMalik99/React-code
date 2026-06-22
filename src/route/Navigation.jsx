@@ -1,5 +1,8 @@
 import React from 'react'
-import {BrowserRouter, Routes} from 'react-router-dom'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import Home from "../components/pages/Home";
+import About from "../components/pages/About";
+
 
 function Navigation() {
   return (
@@ -7,7 +10,7 @@ function Navigation() {
     
     <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/" element={<About/>}/>
+        <Route path="/about" element={<About/>}/>
 
     </Routes>
 

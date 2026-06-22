@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Abount() {
+function About() {
   return (
     <div>
-        Abount
+      About
 
     </div>
   )
 }
 
-export default Abount
+export default About
