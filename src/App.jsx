@@ -310,16 +310,61 @@
 
 // export default App
 
-import React from 'react'
-import Navigation from './route/Navigation'
+// import React from 'react'
+// import Navigation from './route/Navigation'
 
-function App() {
+// function App() {
+//   return (
+//     <div>
+//       <Navigation/>
+
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+
+// class 34 .................................................................................
+
+
+import React from 'react'
+
+function App1() {
   return (
     <div>
-      <Navigation/>
-
+      App1
     </div>
   )
 }
 
-export default App
+
+
+
+
+function App2() {
+  return (
+    <div>
+      App2
+    </div>
+  )
+}
+
+
+
+
+
+// function App3() {
+//   return (
+//     <div>
+//       App3
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// video 16
