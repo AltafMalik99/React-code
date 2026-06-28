@@ -333,11 +333,14 @@
 
 
 import React from 'react'
+import Navber from './components/Navber'
 
 function App() {
   return (
     <div>
       <h1>App</h1>
+      <Navber/>
+      
     </div>
   )
 }
@@ -345,7 +348,7 @@ function App() {
 export default App
 
 
-// video 16
+// video 30
 
 
 

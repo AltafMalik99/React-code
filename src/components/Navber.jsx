@@ -1,8 +1,12 @@
 import React from 'react'
+import Naverchild from './Naverchild'
 
 function Navber() {
   return (
-    <div>Navber</div>
+    <>
+    <div>Navberch</div>
+    <Naverchild/>
+    </>
   )
 }
 
