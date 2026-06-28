@@ -330,41 +330,44 @@
 // class 34 .................................................................................
 
 
+
+
 import React from 'react'
 
-function App1() {
+function App() {
   return (
     <div>
-      App1
+      <h1>App</h1>
     </div>
   )
 }
 
-
-
-
-
-function App2() {
-  return (
-    <div>
-      App2
-    </div>
-  )
-}
-
-
-
-
-
-// function App3() {
-//   return (
-//     <div>
-//       App3
-//     </div>
-//   )
-// }
-
-// export default App
+export default App
 
 
 // video 16
+
+
+
+// introduction components
+
+// import React from 'react'
+// ya react library ko import karta ha taake hum jsx likh sake aur react components bane sake
+
+
+
+
+// export...
+
+// is function ko dusri file ma use kar ta ha is lay ha export ka use ho rhe ha 
+
+
+
+
+// react ma components chhote chhote reusable code blockss hoti ha jo ui 
+// user interface ke part ko banate hai
+// components website ka ek hissa part hoti ha jise ka 
+// navber herosection product card  contactfrom footer ya alag alag components hoti ha 
+
+// ek components ko koi jagah use kar sakta ha 
+// project ko maintain karne aasan hoti ha
